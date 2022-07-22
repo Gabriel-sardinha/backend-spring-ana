@@ -1,6 +1,5 @@
 package br.com.projecte.model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -13,9 +12,7 @@ public class Interferencia {
 	@Id
 	private String cod_interferencia;
 	
-	@Column(name = "cod_empreendimento")
-	private String codEmpreendimento;
-	
+	private String cod_empreendimento;
 	private Long unidade_consumidora;
 	private String nome_inscrito;
 	private String int_cd_regla;

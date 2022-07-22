@@ -15,8 +15,8 @@ public class InterferenciaService {
 	@Autowired
 	InterferenciaRepository repository;
 	
-	public List<Interferencia> listar(String codEmpreendimento) {
-		return repository.findByCodEmpreendimento(codEmpreendimento);
+	public List<Interferencia> listar() {
+		return repository.findAll();
 	}
 	
 	public Interferencia consultar(String id) throws NotFoundException {

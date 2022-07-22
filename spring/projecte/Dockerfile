@@ -2,13 +2,13 @@ FROM maven:alpine as build
 
 COPY pom.xml .
 
-RUN mvn clean package -Dmaven.test.skip -Dmaven.main.skip -Dspring-boot.repackage.skip && rm -r target/
+RUN mvn clean package -Dmaven.test.skip -Dmaven.main.skip
 
 COPY src ./src
 
-RUN mvn clean package  -Dmaven.test.skip
+RUN mvn clean package -Dmaven.test.skip
 
-RUN mkdir -p target/docker-packaging && cd target/docker-packaging && jar -xf ../my-app*.jar
+# RUN mkdir -p target/docker-packaging && cd target/docker-packaging && jar -xf ../my-app*.jar
 
 
 FROM openjdk:11-jdk-alpine 

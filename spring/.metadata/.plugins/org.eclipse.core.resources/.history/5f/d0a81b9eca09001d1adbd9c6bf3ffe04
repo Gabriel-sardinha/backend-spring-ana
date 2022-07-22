@@ -23,7 +23,7 @@ public class InterferenciaController {
 	@Autowired
 	InterferenciaService service;
 	
-	@GetMapping("/lista/{codEmpreendimento}")
+	@GetMapping
 	public List<Interferencia> listar(@PathVariable String codEmpreendimento) {
 		return service.listar(codEmpreendimento);
 	}
