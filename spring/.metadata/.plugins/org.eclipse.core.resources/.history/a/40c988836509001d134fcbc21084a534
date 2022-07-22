@@ -1,0 +1,13 @@
+package br.com.projecte.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.projecte.repository.UsuarioSecundarioRepository;
+
+@Service
+public class UsuarioSecundarioService {
+
+	@Autowired
+	UsuarioSecundarioRepository repository;
+}

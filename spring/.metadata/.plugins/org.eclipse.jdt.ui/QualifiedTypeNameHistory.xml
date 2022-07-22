@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="br.com.projecte.repository.EmpreendimentoRepository"/>
+    <fullyQualifiedTypeName name="br.com.projecte.repository.UsuarioRepository"/>
+    <fullyQualifiedTypeName name="br.com.projecte.repository.InterferenciaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.crossstore.ChangeSetPersister.NotFoundException"/>
+    <fullyQualifiedTypeName name="br.com.projecte.service.EmpreendimentoService"/>
+    <fullyQualifiedTypeName name="br.com.projecte.service.UsuarioService"/>
+    <fullyQualifiedTypeName name="br.com.projecte.service.InterferenciaService"/>
+    <fullyQualifiedTypeName name="br.com.projecte.model.Interferencia"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="br.com.projecte.model.Empreendimento"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="br.com.projecte.repository.UsuarioPrincipalRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="br.com.projecte.repository.UsuarioSecundarioRepository"/>
+    <fullyQualifiedTypeName name="br.com.projecte.model.Usuario"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="br.com.projecte.service.UsuarioPrimarioService"/>
+    <fullyQualifiedTypeName name="br.com.projecte.service.UsuarioSecundarioService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="br.com.projecte.model.UsuarioPrincipal"/>
+    <fullyQualifiedTypeName name="br.com.projecte.model.UsuarioSecundario"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+</qualifiedTypeNameHistroy>

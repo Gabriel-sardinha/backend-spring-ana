@@ -1,0 +1,26 @@
+package br.com.projecte.model;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+import lombok.Data;
+
+@Data
+@Entity
+public class Empreendimento {
+
+	@Id
+	public String cod_empreendimento;
+	
+	public String emp_nm_empreeendimento;
+	public String nome_proprietario;
+	public String cpf_cnpj_proprietario;
+	public LocalDate data_cadastro;
+	public String endereco;
+	public String complemento_endereco;
+	public String referencia_endereco;
+	public Boolean ha_uso_de_agua;
+	
+}

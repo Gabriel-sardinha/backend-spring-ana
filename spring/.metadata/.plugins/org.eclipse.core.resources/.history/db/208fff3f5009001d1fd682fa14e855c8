@@ -1,0 +1,13 @@
+spring.datasource.platform=postgres
+
+spring.jpa.database=POSTGRESQL
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/bancoprojecte
+spring.database.driverClassName=org.postgresql.Driver
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+
+
+spring.jpa.show-sql=false
+spring.jpa.hibernate.ddl-auto=create-drop
+server.port=8080

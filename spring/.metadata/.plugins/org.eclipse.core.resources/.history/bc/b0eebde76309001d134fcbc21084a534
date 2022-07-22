@@ -1,0 +1,9 @@
+package br.com.projecte.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.projecte.model.UsuarioPrincipal;
+
+public interface UsuarioPrincipalRepository extends JpaRepository<UsuarioPrincipal, Long>{
+
+}

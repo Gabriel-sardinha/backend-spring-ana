@@ -1,0 +1,9 @@
+package br.com.projecte.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.projecte.model.Interferencia;
+
+public interface InterferenciaRepository extends JpaRepository<Interferencia, String>{
+
+}

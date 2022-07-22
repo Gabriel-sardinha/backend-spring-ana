@@ -1,0 +1,13 @@
+package br.com.projecte.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import br.com.projecte.repository.InterferenciaRepository;
+
+@Service
+public class InterferenciaService {
+	
+	@Autowired
+	InterferenciaRepository repository;
+}
